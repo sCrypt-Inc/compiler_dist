@@ -1,0 +1,17 @@
+{
+  "name": "compiler",
+  "version": "0.0.10",
+  "description": "sCryptc compiler wrapper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dl": "sh ./downloadcompiler.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "hash": {
+    "win32": "d486f586e31e4623473effec41dde430036b34cf254f564ba938451d23781c65",
+    "linux": "1ce35d405657a76eaa4a0e9fff0d0e4ea2b9c231e9cf846f25f55aa7b65c68a8",
+    "mac": "589bfb5de3ee22c5df453743e83ace8e4ecd24a00d2d87d316af855e3247058e"
+  }
+}
