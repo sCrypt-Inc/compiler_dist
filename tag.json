@@ -62,7 +62,7 @@
       "content_type": "binary/octet-stream",
       "state": "uploaded",
       "size": 9259408,
-      "download_count": 10,
+      "download_count": 13,
       "created_at": "2020-11-26T22:28:09Z",
       "updated_at": "2020-11-26T22:28:09Z",
       "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v0.2.11/scryptc-0.2.11-Linux"
@@ -96,7 +96,7 @@
       "content_type": "binary/octet-stream",
       "state": "uploaded",
       "size": 4319912,
-      "download_count": 8,
+      "download_count": 12,
       "created_at": "2020-11-26T22:25:38Z",
       "updated_at": "2020-11-26T22:25:38Z",
       "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v0.2.11/scryptc-0.2.11-macOS"
@@ -130,7 +130,7 @@
       "content_type": "binary/octet-stream",
       "state": "uploaded",
       "size": 10048512,
-      "download_count": 8,
+      "download_count": 11,
       "created_at": "2020-11-26T22:33:42Z",
       "updated_at": "2020-11-26T22:33:44Z",
       "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v0.2.11/scryptc-0.2.11-Windows.exe"

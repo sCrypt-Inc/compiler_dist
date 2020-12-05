@@ -31,10 +31,13 @@ echo "$GITHUB_LINUX_ASSET_ID"
 
 if [ $GITHUB_MACOS_ASSET_ID != "" ]; then 
     curl -L -J https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/assets/${GITHUB_MACOS_ASSET_ID} -o ${GITHUB_ASSET_FILENAME_MACOS} -H 'Accept: application/octet-stream'
+    chmod  u+x "$GITHUB_ASSET_FILENAME_MACOS"
+    
 fi
 
 if [ $GITHUB_LINUX_ASSET_ID != "" ]; then 
     curl -L -J https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/assets/${GITHUB_LINUX_ASSET_ID} -o ${GITHUB_ASSET_FILENAME_LINUX} -H 'Accept: application/octet-stream'
+    chmod  u+x "$GITHUB_ASSET_FILENAME_LINUX"
 fi
 
 if [ $GITHUB_WINDOWS_ASSET_ID != "" ]; then 
