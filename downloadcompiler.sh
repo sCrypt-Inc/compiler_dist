@@ -1,4 +1,4 @@
-COMPILER_VERSION=0.2.11
+COMPILER_VERSION=0.2.12-beta2
 GITHUB_OWNER=sCrypt-Inc
 GITHUB_REPO=compiler_dist
 GITHUB_TAG="v$COMPILER_VERSION"
@@ -30,17 +30,17 @@ echo "$GITHUB_MACOS_ASSET_ID"
 echo "$GITHUB_WINDOWS_ASSET_ID"
 echo "$GITHUB_LINUX_ASSET_ID"
 
-if [ $GITHUB_MACOS_ASSET_ID != "" ]; then 
+if [ $GITHUB_MACOS_ASSET_ID != "no_assets" ]; then 
     curl -L -J https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/assets/${GITHUB_MACOS_ASSET_ID} -o ${GITHUB_ASSET_FILENAME_MACOS} -H 'Accept: application/octet-stream'
     chmod  u+x "$GITHUB_ASSET_FILENAME_MACOS"
     
 fi
 
-if [ $GITHUB_LINUX_ASSET_ID != "" ]; then 
+if [ $GITHUB_LINUX_ASSET_ID != "no_assets" ]; then 
     curl -L -J https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/assets/${GITHUB_LINUX_ASSET_ID} -o ${GITHUB_ASSET_FILENAME_LINUX} -H 'Accept: application/octet-stream'
     chmod  u+x "$GITHUB_ASSET_FILENAME_LINUX"
 fi
 
-if [ $GITHUB_WINDOWS_ASSET_ID != "" ]; then 
+if [ $GITHUB_WINDOWS_ASSET_ID != "no_assets" ]; then 
     curl -L -J https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/assets/${GITHUB_WINDOWS_ASSET_ID} -o ${GITHUB_ASSET_FILENAME_WINDOWS} -H 'Accept: application/octet-stream'
 fi
