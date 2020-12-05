@@ -1,4 +1,4 @@
-COMPILER_VERSION=0.2.12-beta2
+COMPILER_VERSION=0.2.11
 GITHUB_OWNER=sCrypt-Inc
 GITHUB_REPO=compiler_dist
 GITHUB_TAG="v$COMPILER_VERSION"
@@ -15,7 +15,7 @@ mkdir -p "./scryptc/win32/"
 mkdir -p "./scryptc/linux/"
 mkdir -p "./scryptc/mac/"
 
-curl -L -J "https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${GITHUB_TAG}" > tag.json
+curl -sSL -J "https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${GITHUB_TAG}" > tag.json
 
 GITHUB_LINUX_ASSET_ID=$(node parser.js Linux)
 GITHUB_MACOS_ASSET_ID=$(node parser.js macOS)
