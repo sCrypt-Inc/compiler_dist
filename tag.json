@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/34962569",
-  "assets_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/34962569/assets",
-  "upload_url": "https://uploads.github.com/repos/sCrypt-Inc/compiler_dist/releases/34962569/assets{?name,label}",
-  "html_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/tag/v0.2.12-beta3",
-  "id": 34962569,
+  "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/35007658",
+  "assets_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/35007658/assets",
+  "upload_url": "https://uploads.github.com/repos/sCrypt-Inc/compiler_dist/releases/35007658/assets{?name,label}",
+  "html_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/tag/v0.2.12-beta4",
+  "id": 35007658,
   "author": {
     "login": "scrypt-sv",
     "id": 52027588,
@@ -24,20 +24,20 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "MDc6UmVsZWFzZTM0OTYyNTY5",
-  "tag_name": "v0.2.12-beta3",
+  "node_id": "MDc6UmVsZWFzZTM1MDA3NjU4",
+  "tag_name": "v0.2.12-beta4",
   "target_commitish": "master",
-  "name": "refs/tags/v0.2.12-beta3",
+  "name": "refs/tags/v0.2.12-beta4",
   "draft": false,
   "prerelease": false,
   "created_at": "2020-12-05T14:17:42Z",
-  "published_at": "2020-12-08T04:17:26Z",
+  "published_at": "2020-12-08T20:03:04Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/assets/29281326",
-      "id": 29281326,
-      "node_id": "MDEyOlJlbGVhc2VBc3NldDI5MjgxMzI2",
-      "name": "scryptc-0.2.12-beta3-Windows.exe",
+      "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/assets/29316108",
+      "id": 29316108,
+      "node_id": "MDEyOlJlbGVhc2VBc3NldDI5MzE2MTA4",
+      "name": "scryptc-0.2.12-beta4-Windows.exe",
       "label": "",
       "uploader": {
         "login": "scrypt-sv",
@@ -63,12 +63,12 @@
       "state": "uploaded",
       "size": 10170880,
       "download_count": 0,
-      "created_at": "2020-12-08T04:17:27Z",
-      "updated_at": "2020-12-08T04:17:27Z",
-      "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v0.2.12-beta3/scryptc-0.2.12-beta3-Windows.exe"
+      "created_at": "2020-12-08T20:03:04Z",
+      "updated_at": "2020-12-08T20:03:05Z",
+      "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v0.2.12-beta4/scryptc-0.2.12-beta4-Windows.exe"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/tarball/v0.2.12-beta3",
-  "zipball_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/zipball/v0.2.12-beta3",
+  "tarball_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/tarball/v0.2.12-beta4",
+  "zipball_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/zipball/v0.2.12-beta4",
   "body": "Compiler binaries"
 }
