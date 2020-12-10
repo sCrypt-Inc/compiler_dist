@@ -18,29 +18,29 @@ mkdir -p "./scryptc/mac/"
 #we just update tag.json locally when you change COMPILER_VERSION, because github api has daily limit.
 #curl -sSL -J "https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${GITHUB_TAG}" > tag.json
 
-GITHUB_LINUX_ASSET_ID=$(node parser.js Linux)
-GITHUB_MACOS_ASSET_ID=$(node parser.js macOS)
-GITHUB_WINDOWS_ASSET_ID=$(node parser.js Windows)
+GITHUB_LINUX_ASSET_URL=$(node parser.js Linux)
+GITHUB_MACOS_ASSET_URL=$(node parser.js macOS)
+GITHUB_WINDOWS_ASSET_URL=$(node parser.js Windows)
 
 
 
 
 
-echo "$GITHUB_MACOS_ASSET_ID"
-echo "$GITHUB_WINDOWS_ASSET_ID"
-echo "$GITHUB_LINUX_ASSET_ID"
+echo "$GITHUB_MACOS_ASSET_URL"
+echo "$GITHUB_WINDOWS_ASSET_URL"
+echo "$GITHUB_LINUX_ASSET_URL"
 
-if [ $GITHUB_MACOS_ASSET_ID != "no_assets" ]; then 
-    curl -L -J https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/assets/${GITHUB_MACOS_ASSET_ID} -o ${GITHUB_ASSET_FILENAME_MACOS} -H 'Accept: application/octet-stream'
+if [ $GITHUB_MACOS_ASSET_URL != "no_assets" ]; then 
+    curl -L -J ${GITHUB_MACOS_ASSET_URL} -o ${GITHUB_ASSET_FILENAME_MACOS} -H 'Accept: application/octet-stream'
     chmod  u+x "$GITHUB_ASSET_FILENAME_MACOS"
     
 fi
 
-if [ $GITHUB_LINUX_ASSET_ID != "no_assets" ]; then 
-    curl -L -J https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/assets/${GITHUB_LINUX_ASSET_ID} -o ${GITHUB_ASSET_FILENAME_LINUX} -H 'Accept: application/octet-stream'
+if [ $GITHUB_LINUX_ASSET_URL != "no_assets" ]; then 
+    curl -L -J ${GITHUB_LINUX_ASSET_URL} -o ${GITHUB_ASSET_FILENAME_LINUX} -H 'Accept: application/octet-stream'
     chmod  u+x "$GITHUB_ASSET_FILENAME_LINUX"
 fi
 
-if [ $GITHUB_WINDOWS_ASSET_ID != "no_assets" ]; then 
-    curl -L -J https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/assets/${GITHUB_WINDOWS_ASSET_ID} -o ${GITHUB_ASSET_FILENAME_WINDOWS} -H 'Accept: application/octet-stream'
+if [ $GITHUB_WINDOWS_ASSET_URL != "no_assets" ]; then 
+    curl -L -J ${GITHUB_WINDOWS_ASSET_URL} -o ${GITHUB_ASSET_FILENAME_WINDOWS} -H 'Accept: application/octet-stream'
 fi
