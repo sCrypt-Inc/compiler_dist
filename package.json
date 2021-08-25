@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dl": "sh ./downloadcompiler.sh"
+    "dl": "sh ./downloadcompiler.sh",
+    "postdl": "node checkdl.js"
   },
   "author": "",
   "license": "ISC",
