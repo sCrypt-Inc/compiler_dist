@@ -1,4 +1,4 @@
-COMPILER_VERSION=1.3.2
+COMPILER_VERSION=1.2.0
 GITHUB_OWNER=sCrypt-Inc
 GITHUB_REPO=compiler_dist
 GITHUB_TAG="v$COMPILER_VERSION"
@@ -16,7 +16,7 @@ mkdir -p "./scryptc/linux/"
 mkdir -p "./scryptc/mac/"
 
 #we just update tag.json locally when you change COMPILER_VERSION, because github api has daily limit.
-#curl -sSL -J "https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${GITHUB_TAG}" > tag.json
+curl -sSL -J "https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${GITHUB_TAG}" > tag.json
 
 GITHUB_LINUX_ASSET_URL=$(node parser.js Linux)
 GITHUB_MACOS_ASSET_URL=$(node parser.js macOS)
