@@ -16,7 +16,7 @@ mkdir -p "./scryptc/linux/"
 mkdir -p "./scryptc/mac/"
 
 #we just update tag.json locally when you change COMPILER_VERSION, because github api has daily limit.
-curl -sSL -J "https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${GITHUB_TAG}" > tag.json
+#curl -sSL -J "https://api.github.com/repos/${GITHUB_OWNER}/${GITHUB_REPO}/releases/tags/${GITHUB_TAG}" > tag.json
 
 GITHUB_LINUX_ASSET_URL=$(node parser.js Linux)
 GITHUB_MACOS_ASSET_URL=$(node parser.js macOS)
