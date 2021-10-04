@@ -19,6 +19,11 @@ const version = JSON.parse(content).tag_name.toString().substr(1);
 
 console.log('version', version, 'output', output)
 
+
+if(version.indexOf("beta") > -1) {
+    console.warn('beta version skip check')
+    exit(0)
+}
 if(output.indexOf(version) < 0){
     console.error('version check fail')
     exit(-1)
