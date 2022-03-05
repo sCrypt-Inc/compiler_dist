@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/59967235",
-  "assets_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/59967235/assets",
-  "upload_url": "https://uploads.github.com/repos/sCrypt-Inc/compiler_dist/releases/59967235/assets{?name,label}",
-  "html_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/tag/v1.9.0",
-  "id": 59967235,
+  "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/61052223",
+  "assets_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/61052223/assets",
+  "upload_url": "https://uploads.github.com/repos/sCrypt-Inc/compiler_dist/releases/61052223/assets{?name,label}",
+  "html_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/tag/v1.9.1",
+  "id": 61052223,
   "author": {
     "login": "scrypt-sv",
     "id": 52027588,
@@ -24,20 +24,20 @@
     "type": "User",
     "site_admin": false
   },
-  "node_id": "RE_kwDOEskUbM4DkwcD",
-  "tag_name": "v1.9.0",
+  "node_id": "RE_kwDOEskUbM4Do5U_",
+  "tag_name": "v1.9.1",
   "target_commitish": "master",
-  "name": "refs/tags/v1.9.0",
+  "name": "refs/tags/v1.9.1",
   "draft": false,
   "prerelease": false,
-  "created_at": "2022-02-15T12:24:19Z",
-  "published_at": "2022-02-19T12:02:28Z",
+  "created_at": "2022-02-19T12:33:08Z",
+  "published_at": "2022-03-05T08:17:12Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/assets/57336143",
-      "id": 57336143,
-      "node_id": "RA_kwDOEskUbM4DauFP",
-      "name": "scryptc-1.9.0-Linux",
+      "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/assets/58626390",
+      "id": 58626390,
+      "node_id": "RA_kwDOEskUbM4DfpFW",
+      "name": "scryptc-1.9.1-Linux",
       "label": "",
       "uploader": {
         "login": "scrypt-sv",
@@ -61,17 +61,17 @@
       },
       "content_type": "binary/octet-stream",
       "state": "uploaded",
-      "size": 11957328,
+      "size": 11971056,
       "download_count": 0,
-      "created_at": "2022-02-19T12:02:29Z",
-      "updated_at": "2022-02-19T12:02:29Z",
-      "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v1.9.0/scryptc-1.9.0-Linux"
+      "created_at": "2022-03-05T08:17:12Z",
+      "updated_at": "2022-03-05T08:17:13Z",
+      "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v1.9.1/scryptc-1.9.1-Linux"
     },
     {
-      "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/assets/57336282",
-      "id": 57336282,
-      "node_id": "RA_kwDOEskUbM4DauHa",
-      "name": "scryptc-1.9.0-macOS",
+      "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/assets/58626607",
+      "id": 58626607,
+      "node_id": "RA_kwDOEskUbM4DfpIv",
+      "name": "scryptc-1.9.1-macOS",
       "label": "",
       "uploader": {
         "login": "scrypt-sv",
@@ -95,17 +95,17 @@
       },
       "content_type": "binary/octet-stream",
       "state": "uploaded",
-      "size": 6378944,
+      "size": 6395696,
       "download_count": 0,
-      "created_at": "2022-02-19T12:04:07Z",
-      "updated_at": "2022-02-19T12:04:07Z",
-      "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v1.9.0/scryptc-1.9.0-macOS"
+      "created_at": "2022-03-05T08:22:10Z",
+      "updated_at": "2022-03-05T08:22:11Z",
+      "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v1.9.1/scryptc-1.9.1-macOS"
     },
     {
-      "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/assets/57336570",
-      "id": 57336570,
-      "node_id": "RA_kwDOEskUbM4DauL6",
-      "name": "scryptc-1.9.0-Windows.exe",
+      "url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/releases/assets/58627077",
+      "id": 58627077,
+      "node_id": "RA_kwDOEskUbM4DfpQF",
+      "name": "scryptc-1.9.1-Windows.exe",
       "label": "",
       "uploader": {
         "login": "scrypt-sv",
@@ -129,14 +129,14 @@
       },
       "content_type": "binary/octet-stream",
       "state": "uploaded",
-      "size": 12784128,
+      "size": 12797952,
       "download_count": 0,
-      "created_at": "2022-02-19T12:14:08Z",
-      "updated_at": "2022-02-19T12:14:08Z",
-      "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v1.9.0/scryptc-1.9.0-Windows.exe"
+      "created_at": "2022-03-05T08:27:25Z",
+      "updated_at": "2022-03-05T08:27:26Z",
+      "browser_download_url": "https://github.com/sCrypt-Inc/compiler_dist/releases/download/v1.9.1/scryptc-1.9.1-Windows.exe"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/tarball/v1.9.0",
-  "zipball_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/zipball/v1.9.0",
+  "tarball_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/tarball/v1.9.1",
+  "zipball_url": "https://api.github.com/repos/sCrypt-Inc/compiler_dist/zipball/v1.9.1",
   "body": "Compiler binaries"
 }
