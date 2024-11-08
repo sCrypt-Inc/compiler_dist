@@ -1,0 +1,20 @@
+{
+	"compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "outDir": "./out",
+        "alwaysStrict": true,
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "node",
+        "declaration": true,
+        "declarationDir": "./out",
+        "rootDir": "src",
+        "lib": [
+            "es2020"
+        ],
+        "composite": true
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "scryptc"]
+}
